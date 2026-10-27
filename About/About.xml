@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Warcasket Gene Exemption</name>
+	<author>DanZinagri</author>
+	<packageId>DanZinagri.BigSmall.WarcasketExemption</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+		<li>1.7</li>
+	</supportedVersions>
+	<description>Warcaskets ignore B&amp;S no-apparel genes.</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>RedMattis.BetterPrerequisites</packageId>
+			<displayName>Big and Small - Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2925432336</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VFE.Pirates</packageId>
+			<displayName>Vanilla Factions Expanded - Pirates</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2723801948</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>RedMattis.BetterPrerequisites</li>
+		<li>OskarPotocki.VFE.Pirates</li>
+	</loadAfter>
+</ModMetaData>
